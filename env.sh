@@ -1,0 +1,37 @@
+export classpath=$CLASSPATH:.
+
+export classpath=$classpath:$UTM_HOME/jboss/bin/client/jboss-client.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/hibernate/main/hibernate-core-4.2.7.SP1-redhat-3.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/hibernate/main/hibernate-entitymanager-4.2.7.SP1-redhat-3.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/hibernate/main/hibernate-infinispan-4.2.7.SP1-redhat-3.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/javax/persistence/api/main/hibernate-jpa-2.0-api-1.0.1.Final-redhat-2.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/jboss/log4j/logmanager/main/log4j-jboss-logmanager-1.0.2.Final-redhat-1.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/dom4j/main/dom4j-1.6.1.redhat-6.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/system/layers/base/org/javassist/main/javassist-3.18.1-GA-redhat-1.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/Template.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/standardSchema.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/UCASchema.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/TeMIPSchema.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/uCMDBSchema.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/schema/main/TargetCommonSchema.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/xbean/main/xbean.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/jsr/main/jsr173_api.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/cglib/main/cglib.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/commons-logging/main/commons-logging.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/oss_inventory_spec/main/oss_inventory_spec-1.2.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/oss_common_spec/main/oss_common_spec-1.5.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/jython/main/jython.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/jsch/main/jsch-0.1.46.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/lib/antlr/main/antlr-2.7.6.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/utm/commonClass/main/CommonClass.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/utm/commonDAOCommon/main/CommonDAOCommon.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/utm/modelLoaderCommon/main/ModelLoaderCommon.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/utm/taskManagerCommon/main/TaskManagerCommon.jar
+export classpath=$classpath:$UTM_HOME/jboss/modules/utm/jvtInventorySessionCommon/main/JVTInventorySessionCommon.jar
+export classpath=$classpath:$MODEL_LOADER_HOME/lib/ModelLoader.jar
+
+echo "******"
+echo "UTM_HOME:"$UTM_HOME
+echo "UTM_DATA:"$UTM_DATA
+echo "MODEL_LOADER_HOME:"$MODEL_LOADER_HOME
+echo "******"
